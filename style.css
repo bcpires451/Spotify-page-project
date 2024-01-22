@@ -1,13 +1,13 @@
 
-
 body {
     background-color: black;
 }
 
 .sidebar {
-    
-    top: 0;
+    background-color: #000000;
+    position: fixed;
     left: 0;
+    top: 0;
     bottom: 0;
     padding: 12px;
     width: 300px;
@@ -27,10 +27,10 @@ body {
 }
 
 .sidebar__navigation .logo img {
-    width: 100px;
+    width: 80px;
 }
 
-.sidebar nav ul {
+.sidebar__navigation .ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
 }
@@ -40,7 +40,7 @@ body {
 }
 
 .sidebar nav ul li a {
-    color: #B3B3B3;
+    color: #b3b3b3;
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
