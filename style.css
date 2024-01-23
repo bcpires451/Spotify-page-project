@@ -30,7 +30,7 @@ body {
     width: 80px;
 }
 
-.sidebar__navigation .ul {
+.sidebar nav ul {
     margin-top: 20px;
     padding: 0 20px 10px 20px;
 }
