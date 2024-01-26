@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify Imersion</title>
-    <link rel="stylesheet" href="reset.css">
-    <link rel="stylesheet" href="sidebar-footer.css">
+    <link rel="stylesheet" href="./src/assets/styles/reset.css">
+    <link rel="stylesheet" href="./src/assets/styles/var.css">
+    <link rel="stylesheet" href="./src/assets/styles/main-content.css">
+    <link rel="stylesheet" href="./src/assets/styles/sidebar-footer.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
     integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
@@ -64,6 +66,33 @@
             </button>
         </div>
     </div>
-</div>
+ </div>
+<main>
+    <div class="main-container">
+        <nav class="header__navigation">
+            <div class="navigation">
+                <button class="arrow-left">
+                    <img src="./src/assets/icons/small-left.png" alt="Seta Esquerda">
+                </button>
+                <button class="arrow-right">
+                    <img src="./src/assets/icons/small-right.png" alt="Seta Direita">
+                </button>
+            </div>
+            <div class="header__search">
+                <img src="./src/assets/icons/search.png" alt="">
+                <input id="search-input" type="text" 
+                maxlength="800" placeholder="O que voce quer ouvir?"/>
+            </div>
+
+              <div class="header__login">
+                <button class="subscribe">Inscreva-se</button>
+                <button class="login">Entrar</button>
+              </div>
+         </nav>
+    </div>
+</main>
+<footer class="disclaimer-premium">
+
+</footer>
 </body>
 </html>
